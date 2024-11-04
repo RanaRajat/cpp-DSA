@@ -44,11 +44,11 @@ int reverseArray(int arr[],int size){
 int main(){
     int arr[10];
     int arr1[10] = {20,23,43,46,89,91,300,1,3,4};
-    // fill(arr+1,arr+7,7);
-    // cout<<arr[9]<<" "<<arr[6]<<" "<<arr[0];
-    // printArray(arr,10);
-    // maxElement(arr1,10);
-    // minElement(arr1,10);
+    fill(arr+1,arr+7,7);
+    cout<<arr[9]<<" "<<arr[6]<<" "<<arr[0];
+    printArray(arr,10);
+    maxElement(arr1,10);
+    minElement(arr1,10);
     reverseArray(arr1,10);
     printArray(arr1,10);
 }
